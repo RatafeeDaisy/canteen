@@ -18,7 +18,6 @@ public class OrderForm {
     private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents  @formatter:off
         orderForm = new JFrame();
-        table1 = new JTable();
 
         //======== orderForm ========
         {
@@ -26,8 +25,6 @@ public class OrderForm {
             orderForm.setTitle("\u8ba2\u5355\u7ba1\u7406");
             var orderFormContentPane = orderForm.getContentPane();
             orderFormContentPane.setLayout(null);
-            orderFormContentPane.add(table1);
-            table1.setBounds(60, 30, 280, 180);
 
             {
                 // compute preferred size
@@ -51,6 +48,5 @@ public class OrderForm {
 
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables  @formatter:off
     private JFrame orderForm;
-    private JTable table1;
     // JFormDesigner - End of variables declaration  //GEN-END:variables  @formatter:on
 }
