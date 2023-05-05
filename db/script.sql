@@ -1,3 +1,5 @@
+use canteen_maindb;
+
 create table canteen_caidan
 (
     caidan_no      varchar(30)   not null
