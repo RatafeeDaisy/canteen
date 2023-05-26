@@ -7,8 +7,7 @@ package com.canteen.gui.mainform;
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.table.*;
-import org.jdesktop.beansbinding.*;
-import org.jdesktop.beansbinding.AutoBinding.UpdateStrategy;
+
 
 /**
  * @author 10047

@@ -24,9 +24,9 @@
         <!--数据库地址及登陆账号密码 改成你自己的配置-->
         <jdbcConnection
                 driverClass="com.mysql.jdbc.Driver"
-                connectionURL="jdbc:mysql://server.natappfree.cc:42634/canteen?serverTimezone=GMT%2B8&amp;useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false"
-                userId="member"
-                password="123456">
+                connectionURL="jdbc:mysql://localhost:3306/canteen?serverTimezone=GMT%2B8&amp;useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false"
+                userId="root"
+                password="123">
         </jdbcConnection>
 
         <javaTypeResolver>

@@ -22,12 +22,6 @@
     </environments>
     <!--每一个Mapper.XML都需要在Mybatis核心配置文件中注册！-->
     <mappers>
-        <mapper resource="mapper/ExperimentEquipmentMapper.xml"/>
-        <mapper resource="mapper/ExperimentInformationMapper.xml"/>
-        <mapper resource="mapper/PatientInformationMapper.xml"/>
-        <mapper resource="mapper/PatientCaseMapper.xml"/>
-        <mapper resource="mapper/ExperimentSampleMapper.xml"/>
-        <mapper resource="mapper/SampleDetailMapper.xml"/>
-        <mapper resource="mapper/SpermSampleMapper.xml"/>
+        <mapper resource="mapper/CanteenCustomerMapper.xml"/>
     </mappers>
 </configuration>
